@@ -1,0 +1,27 @@
+{
+  "name": "backendprogramacionconcurrente",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/morgan": "^1.9.9",
+    "nodemon": "^3.1.7"
+  }
+}
