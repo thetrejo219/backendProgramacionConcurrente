@@ -11,7 +11,7 @@ var connection = "mongodb+srv://diegotrejo8024:CtzajPpPA5657tee@secundariaesima.
 mongoose.Promise = global.Promise
 
 const app = express()
-const PORT =7650
+const PORT = process.env.PORT || 7650
  
 const server = http.createServer(app)
 
